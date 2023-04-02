@@ -189,3 +189,37 @@ body {
     
     color: var(--secondary-text-color-theme-dark);
 }
+
+.card-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+    color: var(--accent-color);
+    background: var(--secondary-text-color-theme-dark);
+}
+
+.card-btn:hover,
+.card-btn:focus {
+    color: var(--primary-text-color-theme-dark);
+    background: var(--main-hover-color);
+}
+
+.portfolio-cards-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--background-color-dark);
+}
+
+.portfolio-cards-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: var(--secondary-text-color-theme-light);
+}
