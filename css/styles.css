@@ -116,7 +116,10 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
+    color: var(--primary-text-color-theme-light);
 }
+
 .feature-text {
     font-size: 16px;
     line-height: 1.5;
@@ -132,13 +135,15 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+
+    color: var(--primary-text-color-theme-light);
 }
 
 .our-team {
     background-color: var(--secondary-text-color-theme-dark);
 }
 
-.worker-card-list {
+.worker-card {
     background-color: var(--main-background-color);
 }
 
