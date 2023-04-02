@@ -6,13 +6,15 @@
 --primary-text-color-theme-dark: #ffffff;
 --secondary-text-color-theme-dark: #f4f4fd;
 --background-color-dark: #2e2f42;
+--main-background-color: #ffffff;
 --accent-color: #4d5ae5;
 --main-hover-color: #404bbf;
 }
 
 body {
     font-family: var(--main-font);
-    color: var(--primary-text-color-theme-light);
+    color: var(--secondary-text-color-theme-light);
+    background-color: var(--main-background-color)
 }
 
 .list {
@@ -57,7 +59,11 @@ body {
     color: var(--primary-text-color-theme-light);
 }
 
-.email-link {
+.main-address{
+    font-style: normal;
+}
+
+.tel-email-link {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -67,40 +73,26 @@ body {
     color: var(--secondary-text-color-theme-light);
 }
 
-.email-link:hover,
-.email-link:focus {
-    color: var(--main-hover-color);
-}
-
-.tel-link {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-    color: var(--secondary-text-color-theme-light);
-}
-
-.tel-link:hover,
-.tel-link:focus {
+.tel-email-link:hover,
+.tel-email-link:focus {
     color: var(--main-hover-color);
 }
 
 
 .hero {
+    background-color: var(--background-color-dark);
 }
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     
     color: var(--primary-text-color-theme-dark);
-
-    background-color: var(--background-color-dark);
 }
 .order-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -133,7 +125,8 @@ body {
     color: var(--secondary-text-color-theme-light);
 }
 
-.header-2 {
+.second-header {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -143,6 +136,10 @@ body {
 
 .our-team {
     background-color: var(--secondary-text-color-theme-dark);
+}
+
+.worker-card-list {
+    background-color: var(--main-background-color);
 }
 
 .worker-name {
@@ -187,6 +184,7 @@ body {
 }
 
 .card-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
