@@ -12,6 +12,7 @@
 
 body {
     font-family: var(--main-font);
+    color: var(--primary-text-color-theme-light);
 }
 
 .list {
@@ -119,11 +120,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
-    color: var(--primary-text-color-theme-light);
 }
 .feature-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -137,8 +135,6 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    
-    color: var(--primary-text-color-theme-light);
 }
 
 .our-team {
@@ -150,11 +146,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
-    color: var(--primary-text-color-theme-light);
 }
 .worker-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -182,7 +175,6 @@ body {
 }
 
 .page-footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -216,7 +208,6 @@ body {
 }
 
 .portfolio-cards-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
