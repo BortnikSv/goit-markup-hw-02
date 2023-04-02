@@ -98,7 +98,7 @@ body {
     
     color: var(--primary-text-color-theme-dark);
 
-    background: var(--background-color-dark);
+    background-color: var(--background-color-dark);
 }
 .order-btn {
     font-weight: 500;
@@ -107,12 +107,16 @@ body {
     letter-spacing: 0.04em;
 
     color: var(--primary-text-color-theme-dark);
-    background: var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 .order-btn:hover,
 .order-btn:focus {
-    background: var(--main-hover-color);
+    background-color: var(--main-hover-color);
+}
+
+.order-btn {
+    cursor: pointer;
 }
 
 .feature-subtitle {
@@ -138,7 +142,7 @@ body {
 }
 
 .our-team {
-    background: var(--secondary-text-color-theme-dark);
+    background-color: var(--secondary-text-color-theme-dark);
 }
 
 .worker-name {
@@ -156,7 +160,7 @@ body {
 }
 
 .page-footer {
-    background: var(--background-color-dark);
+    background-color: var(--background-color-dark);
 }
 
 .logo-footer {
@@ -189,13 +193,17 @@ body {
     letter-spacing: 0.04em;
     
     color: var(--accent-color);
-    background: var(--secondary-text-color-theme-dark);
+    background-color: var(--secondary-text-color-theme-dark);
 }
 
 .card-btn:hover,
 .card-btn:focus {
     color: var(--primary-text-color-theme-dark);
-    background: var(--main-hover-color);
+    background-color: var(--main-hover-color);
+}
+
+.card-btn {
+    cursor: pointer;
 }
 
 .portfolio-cards-title {
